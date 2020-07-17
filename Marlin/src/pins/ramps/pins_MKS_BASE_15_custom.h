@@ -29,13 +29,11 @@
   #error "MKS BASE 1.5 only supports up to 2 hotends / E-steppers. Comment out this line to continue."
 #endif
 
-#define BOARD_INFO_NAME "MKS BASE 1.5"
+#define BOARD_INFO_NAME "MKS BASE 1.5 custom"
 #define MKS_BASE_VERSION 15
 
 #include "pins_MKS_BASE_common.h"
 
-
-//custom
 #define Z_MIN_PIN 15
 #define Y_MAX_PIN -1
 
